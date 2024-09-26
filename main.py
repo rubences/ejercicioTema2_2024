@@ -1,5 +1,6 @@
-import ejercicio1
 
-# You can call functions or classes from ejercicio1 here
-# For example, if ejercicio1 has a function named `main_function`, you can call it like this:
-# ejercicio1.main_function()
+from ejecicio1 import Estrella
+
+if __name__ == "__main__":
+    # Asegúrate de que `ejercicio1` tenga una función llamada `main_function`
+    Estrella.main_function()
