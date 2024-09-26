@@ -2,6 +2,9 @@ class Magia:
     def __init__(self, lista):
         self.lista = lista
 
+    def __str__(self):
+        return str(self.lista)
+    
     def magia_numerica(self):
         # Eliminar los elementos duplicados
         lista_unica = list(set(self.lista))
