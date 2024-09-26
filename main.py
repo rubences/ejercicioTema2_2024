@@ -1,7 +1,7 @@
 
-from ejecicio1 import Estrella
-from ejecicio2 import  Zen
-from ejecicio3 import Magia
+from src.ejecicio1 import Estrella
+from src.ejecicio2 import  Zen
+from src.ejecicio3 import Magia
 
 if __name__ == "__main__":
     # Asegúrate de que `ejercicio1` tenga una función llamada `main_function`
