@@ -3,6 +3,9 @@ class Zen:
         self.raw_text = raw_text
         self.formatted_text = self.format_text()
 
+    def __str__(self):
+        return self.formatted_text
+
     def format_text(self):
         # Split the raw text by '#' to separate the sentences
         sentences = self.raw_text.split('#')
